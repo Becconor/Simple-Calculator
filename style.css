@@ -26,3 +26,25 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    place-items: center;
+}
+
+#buttons button {
+    background-color: #9929EA;
+    color: #FFF;
+
+    font-size: 32px;
+    text-align: center;
+
+    border: 0;
+    border-radius: 10px;
+
+    width: 75px;
+    height: 75px;
+}
